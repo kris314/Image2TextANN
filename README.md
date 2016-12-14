@@ -1,4 +1,4 @@
-# Vid2ANN
+# Image2TextANN
 Annotation of text (lexicon words) in images
 
 ## Dependency
