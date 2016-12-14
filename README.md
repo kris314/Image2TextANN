@@ -10,12 +10,10 @@ Tested on Matlab v2013a
    \<foldername\> lexicon1<br>
    \<foldername\> lexicon2<br>
    ...<br>
-   Sample query file is shown here.
-    1_1 light
-    1_1 optical
-    1_1 rays
-    1_1 frequency
-    1_2 rendering
+   Sample query file is shown here.<br>
+    1_1 light<br>
+    1_1 optical<br>
+    1_2 rendering<br>
 
 ## Run
 1. Run matlab executable with graphics interface.
