@@ -1,5 +1,4 @@
 function varargout = PickFrames(varargin)
-% addpath('/home/rnsandeep/Desktop/new desktop january/Sem Project/English_Magazine_Imgs/pixellevel/differentsizes/images');
 % GUI_1 MATLAB code for GUI_1.fig
 %      GUI_1, by itself, creates a new GUI_1 or raises the existing
 %      singleton*.
@@ -166,17 +165,6 @@ handles.currAnnotation{handles.currAnnId,10} = handles.currQueryText;
 
 %create mask image
 cords = ceil(rect);
-%cords(3) = min(cords(1)+cords(3),size(handles.currImg,2));
-%cords(4) = min(cords(2)+cords(4),size(handles.currImg,1));
-
-
-% maskImg = zeros(size(handles.currImg),'uint8');
-% maskImg(cords(2):cords(4),cords(1):cords(3),1) = 255;
-% maskImg(cords(2):cords(4),cords(1):cords(3),2) = 255;
-% handles.currImg(cords(2):cords(4),cords(1):cords(3),:) = ...
-%     0.25*handles.currImg(cords(2):cords(4),cords(1):cords(3),:) + ...
-%     0.75*maskImg(cords(2):cords(4),cords(1):cords(3),:);
-% imshow(handles.currImg);
 
 if(handles.currAnnotation{handles.currAnnId,4} > 0)
     lineStyle = '--';
